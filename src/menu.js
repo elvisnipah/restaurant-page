@@ -30,7 +30,7 @@ function createMenu() {
     const itemTwo = {
         name: "Pizza Pan",
         price: "$14.99",
-        image: "./pizza.jpeg"
+        image: "./pizza.jpg"
     }
     const itemTwoDOM = document.createElement("div");
     const itemTwoIMG = document.createElement("img");
