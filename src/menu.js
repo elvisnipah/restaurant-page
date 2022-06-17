@@ -7,6 +7,7 @@ function createMenu() {
     content.innerHTML = "";
     tabCreator();
     const display = document.createElement("div");
+    display.classList.add("display");
     const menuHeader = document.createElement("h1");
     menuHeader.textContent = "Menu";
     display.appendChild(menuHeader);

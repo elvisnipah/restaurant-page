@@ -6,6 +6,7 @@ function createContact() {
     content.innerHTML = "";
     tabCreator();
     const display = document.createElement("div");
+    display.classList.add("contactDisplay");
     const contactHeader = document.createElement("h1");
     contactHeader.innerText = "Contact Us";
     display.appendChild(contactHeader);

@@ -5,6 +5,7 @@ import { createMenu } from "./menu";
 
 function tabCreator() {
     const tabDiv = document.createElement("div");
+    tabDiv.classList.add("tabDiv");
 
     const homeButton = document.createElement("button");
     homeButton.innerText = "HOME";

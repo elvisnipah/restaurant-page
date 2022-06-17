@@ -1,4 +1,74 @@
+html {
+    background-color: yellow;
+}
+
 img {
     width: 200px;
     height: 200px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabDiv {
+    display: flex;
+    gap: 40px;
+}
+
+.tabDiv > button {
+    width: 150px;
+    border: 0;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.display, .contactDisplay {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display > p {
+    width: 500px;
+    font-weight: bold;
+    color: red;
+    word-spacing: 10px;
+    padding-top: 50px;
+}
+
+.display > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.display > div > img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.display > div > p, .contactDisplay > div > p {
+    padding: 20px;
+    margin: 0;
+}
+
+.contactDisplay > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.contactDisplay > div > img {
+    grid-row-start: 1;
+    grid-row-end: 4;
 }

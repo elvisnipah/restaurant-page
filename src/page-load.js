@@ -6,6 +6,7 @@ function pageLoad() {
     tabCreator();
 
     const display = document.createElement("div");
+    display.classList.add("display");
     const heading = document.createElement("h1");
     heading.innerText = "WELCOME TO LOS POLLOS HERMANOS";
     display.appendChild(heading);
