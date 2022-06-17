@@ -13,7 +13,7 @@ function createMenu() {
     const itemOne = {
         name: "Burger Delight",
         price: "$8.99",
-        image: "../dist/burger.jpeg"
+        image: "./burger.jpeg"
     }
     const itemOneDOM = document.createElement("div");
     const itemOneIMG = document.createElement("img");
@@ -30,7 +30,7 @@ function createMenu() {
     const itemTwo = {
         name: "Pizza Pan",
         price: "$14.99",
-        image: "../dist/pizza.jpeg"
+        image: "./pizza.jpeg"
     }
     const itemTwoDOM = document.createElement("div");
     const itemTwoIMG = document.createElement("img");
